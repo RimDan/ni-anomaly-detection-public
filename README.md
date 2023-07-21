@@ -52,7 +52,7 @@ ni_nfvo:
 
 ## Usage
 
-After installation and configuration of this module, you can run this module by using the command as follows.
+After installing and configuring this module, you can run this module by using the command as follows.
 
 ```
 sudo python3 -m swagger_server
@@ -129,7 +129,7 @@ Array of Resource metrics
 
 - **GET /get_resource_overload_detection_result/{prefix}**
 
-Detection result, time for sending request
+Detection result, time for sending a request
 
 ```
     {
@@ -140,7 +140,7 @@ Detection result, time for sending request
 
 - **GET /get_sla_detection_result/{prefix}**
 
-Detection result, time for sending request
+Detection result, time for sending a request
 
 ```
     {
@@ -148,6 +148,9 @@ Detection result, time for sending request
       "time": “time”,
     }
 ```
+
+## Models
+For the used deep learning models, please refer to [this paper](https://arxiv.org/pdf/2109.14276.pdf)
 
 Note that
 * The OpenStack testbed is implemented by [NI Project](https://github.com/dpnm-ni)
